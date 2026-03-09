@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coding Club Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🎯 Coding Club Quiz</h1>
+    <p class="subtitle">A simple beginner-friendly quiz project.</p>
+
+    <section id="quiz">
+      <h2 id="question">Loading question…</h2>
+      <div id="choices" class="choices"></div>
+
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+
+      <div class="row">
+        <button id="nextBtn" class="btn" disabled>Next</button>
+        <span class="score" id="score">Score: 0</span>
+      </div>
+    </section>
+
+    <section id="end" class="hidden">
+      <h2>✅ Finished!</h2>
+      <p id="finalScore"></p>
+      <button id="restartBtn" class="btn">Restart</button>
+    </section>
+
+    <footer class="footer">
+      <a href="https://github.com/" target="_blank" rel="noreferrer">Host on GitHub</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
