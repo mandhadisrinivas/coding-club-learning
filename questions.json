@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "choices": ["HyperText Markup Language", "HighText Machine Language", "Hyperlink Marking Language", "Home Tool Markup Language"],
+    "answerIndex": 0
+  },
+  {
+    "question": "Which symbol starts a single-line comment in JavaScript?",
+    "choices": ["<!--", "#", "//", "/*"],
+    "answerIndex": 2
+  },
+  {
+    "question": "What does CSS control?",
+    "choices": ["The structure of a webpage", "The styling of a webpage", "The database of a webpage", "The internet connection"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Which keyword declares a variable that can change?",
+    "choices": ["const", "let", "fixed", "varies"],
+    "answerIndex": 1
+  }
+]
