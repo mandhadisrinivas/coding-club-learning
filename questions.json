@@ -18,5 +18,10 @@
     "question": "Which keyword declares a variable that can change?",
     "choices": ["const", "let", "fixed", "varies"],
     "answerIndex": 1
-  }
+  },
+  {
+    "question": "Added with whom?",
+    "choices": ["Havi", "Parthu", "Anish", "Akki"],
+    "answerIndex": 0
+  },
 ]
